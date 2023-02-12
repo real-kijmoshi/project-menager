@@ -1,0 +1,28 @@
+{
+  "name": "projects-menager",
+  "version": "0.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx nodemon test"
+  },
+  "bin": {
+    "proj": "bin/cli.js"
+  },
+  "keywords": [
+    "project",
+    "menager",
+    "project-menager"
+  ],
+  "author": "kijmoshi",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^8.1.0",
+    "commander": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "hidefile": "^3.0.0",
+    "js-beautify": "^1.14.7",
+    "readline-sync": "^1.4.10",
+    "update-notifier": "^5.1.0"
+  }
+}
