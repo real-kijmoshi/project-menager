@@ -3,3 +3,5 @@
 .DS_Store
 /GitHub
 package.lock
+reload.bat
+*.db

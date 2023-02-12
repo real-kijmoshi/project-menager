@@ -3,8 +3,11 @@
 const { Command } = require('commander');
 const { readdirSync } = require('fs');
 const updateNotifier = require('update-notifier');
+const Database = require('../lib/db/database');
 const pkg = require('../package.json');
 const cli = new Command()
+
+new Database().init()
 
 console.clear()
 

@@ -5,3 +5,5 @@
 .npmignore
 .gitignore
 package-lock.json
+reload.bat
+*.db
