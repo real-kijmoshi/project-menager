@@ -20,7 +20,7 @@ npm i projects-menager -g
 ## Create project
 
 ```sh
-proj init
+proj init <path>
 ```
 
 ## run command from project 
